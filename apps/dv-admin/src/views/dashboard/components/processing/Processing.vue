@@ -19,7 +19,8 @@
 		"BTC.Bitcoin",
 		"LTC.Litecoin",
 		"BCH.Bitcoincash",
-		"DOGE.Dogecoin"
+		"DOGE.Dogecoin",
+		"SOL.Solana"
 	];
 
 	const isVisibleTable = computed<boolean>(() => {

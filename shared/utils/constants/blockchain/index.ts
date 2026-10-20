@@ -10,7 +10,8 @@ export const blockchainCurrencyId: Record<string, BlockchainType> = {
 	litecoin: "LTC.Litecoin",
 	tron: "TRX.Tron",
 	dogecoin: "DOGE.Dogecoin",
-	arbitrum: "ARB.Arbitrum"
+	arbitrum: "ARB.Arbitrum",
+	solana: "SOL.Solana"
 };
 
 export const DEFAULT_CURRENCY_CONFIRMATION: number = 20;
@@ -67,7 +68,9 @@ export const DEFAULT_CURRENCIES_INFO: Record<
 	"TRX.Tron": { precision: 6, depositTime: 2, confirmations: 19 },
 	"USD1.Tron": { precision: 18, depositTime: 2, confirmations: 19 },
 	"USDD.Tron": { precision: 18, depositTime: 2, confirmations: 19 },
-	"USDT.Tron": { precision: 2, depositTime: 2, confirmations: 19 }
+	"USDT.Tron": { precision: 2, depositTime: 2, confirmations: 19 },
+	"SOL.Solana": { precision: 9, depositTime: 1, confirmations: 1 },
+	"USDC.Solana": { precision: 2, depositTime: 1, confirmations: 1 }
 };
 
 export const blockchainPatterns: any = {
@@ -107,5 +110,9 @@ export const blockchainPatterns: any = {
 	Arbitrum: {
 		addressUrl: import.meta.env.VITE_EXPLORER_ARBITRUM_ADDRESS || "https://arbiscan.io/address/",
 		transactionUrl: import.meta.env.VITE_EXPLORER_ARBITRUM_TRANSACTION || "https://arbiscan.io/tx/"
+	},
+	Solana: {
+		addressUrl: import.meta.env.VITE_EXPLORER_SOLANA_ADDRESS || "https://solscan.io/account/",
+		transactionUrl: import.meta.env.VITE_EXPLORER_SOLANA_TRANSACTION || "https://solscan.io/tx/"
 	}
 };

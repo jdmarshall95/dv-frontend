@@ -25,7 +25,8 @@ const NATIVE_BY_CHAIN: Record<string, string> = {
 	BNBSmartChain: "BNB",
 	Polygon: "POL",
 	Arbitrum: "ETH",
-	Dogecoin: "DOGE"
+	Dogecoin: "DOGE",
+	Solana: "SOL"
 };
 
 const toCurrencyId = (walletCurrency: string): string => {

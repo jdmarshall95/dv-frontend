@@ -20,6 +20,7 @@ export const currencyIconLoaders: Record<CurrencyType, () => Promise<IconModule>
 	BNB: () => import("@shared/components/icons/blockchains/IconBinance.vue"),
 	POL: () => import("@shared/components/icons/blockchains/IconPolygon.vue"),
 	DOGE: () => import("@shared/components/icons/blockchains/IconDOGEDogecoin.vue"),
+	SOL: () => import("@shared/components/icons/blockchains/IconSolana.vue"),
 	ARB: () => import("@shared/components/icons/blockchains/IconArb.vue"),
 	CAKE: () => import("@shared/components/icons/blockchains/IconCake.vue"),
 	SHIB: () => import("@shared/components/icons/blockchains/IconShib.vue"),

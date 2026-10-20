@@ -51,7 +51,9 @@ export const blockchainIconLoaders: Record<BlockchainType, () => Promise<IconMod
 	"DAI.Arbitrum": () => import("@shared/components/icons/blockchains/IconDAIArbitrum.vue"),
 	"PYUSD.Arbitrum": () => import("@shared/components/icons/blockchains/IconPyusdArbitrum.vue"),
 	"CAKE.Arbitrum": () => import("@shared/components/icons/blockchains/IconCakeArbitrum.vue"),
-	"DOGE.Dogecoin": () => import("@shared/components/icons/blockchains/IconDOGEDogecoin.vue")
+	"DOGE.Dogecoin": () => import("@shared/components/icons/blockchains/IconDOGEDogecoin.vue"),
+	"SOL.Solana": () => import("@shared/components/icons/blockchains/IconSolana.vue"),
+	"USDC.Solana": () => import("@shared/components/icons/blockchains/IconUSDCSolana.vue")
 };
 
 export const loadDefaultBlockchainIcon = () => import("@shared/components/icons/blockchains/iconDefault.vue");

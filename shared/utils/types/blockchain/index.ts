@@ -45,7 +45,9 @@ export type BlockchainType =
 	| "DAI.Arbitrum"
 	| "PYUSD.Arbitrum"
 	| "CAKE.Arbitrum"
-	| "DOGE.Dogecoin";
+	| "DOGE.Dogecoin"
+	| "SOL.Solana"
+	| "USDC.Solana";
 
 export type CurrencyType =
 	| "BTC"
@@ -71,4 +73,5 @@ export type CurrencyType =
 	| "POL"
 	| "ARB"
 	| "SHIB"
-	| "DOGE";
+	| "DOGE"
+	| "SOL";
