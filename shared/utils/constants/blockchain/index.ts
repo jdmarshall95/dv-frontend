@@ -70,6 +70,7 @@ export const DEFAULT_CURRENCIES_INFO: Record<
 	"USDD.Tron": { precision: 18, depositTime: 2, confirmations: 19 },
 	"USDT.Tron": { precision: 2, depositTime: 2, confirmations: 19 },
 	"SOL.Solana": { precision: 9, depositTime: 1, confirmations: 1 },
+	"USDT.Solana": { precision: 2, depositTime: 1, confirmations: 1 },
 	"USDC.Solana": { precision: 2, depositTime: 1, confirmations: 1 }
 };
 

@@ -53,6 +53,7 @@ export const blockchainIconLoaders: Record<BlockchainType, () => Promise<IconMod
 	"CAKE.Arbitrum": () => import("@shared/components/icons/blockchains/IconCakeArbitrum.vue"),
 	"DOGE.Dogecoin": () => import("@shared/components/icons/blockchains/IconDOGEDogecoin.vue"),
 	"SOL.Solana": () => import("@shared/components/icons/blockchains/IconSolana.vue"),
+	"USDT.Solana": () => import("@shared/components/icons/blockchains/IconUSDTSolana.vue"),
 	"USDC.Solana": () => import("@shared/components/icons/blockchains/IconUSDCSolana.vue")
 };
 

@@ -47,6 +47,7 @@ export type BlockchainType =
 	| "CAKE.Arbitrum"
 	| "DOGE.Dogecoin"
 	| "SOL.Solana"
+	| "USDT.Solana"
 	| "USDC.Solana";
 
 export type CurrencyType =
